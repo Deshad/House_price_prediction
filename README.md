@@ -44,3 +44,22 @@ def predict_price(location, sqft, bath, bhk):
     if loc_index >= 0:
         x[loc_index] = 1
     return lr_clf.predict([x])[0]
+
+
+# Bangalore Home Prices Prediction
+
+This project uses machine learning techniques to predict the price of homes in Bangalore based on various features such as the number of bedrooms, bathrooms, square footage, and location.
+
+## Requirements
+
+- Python 3.x
+- Pandas
+- Matplotlib
+- NumPy
+- scikit-learn
+- pickle
+
+To install the required packages, run:
+
+```bash
+pip install -r requirements.txt
